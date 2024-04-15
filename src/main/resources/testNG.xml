@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParaBank application automation test suite">
+  <test name="ParaBank Test cases">
+       <classes>
+      <class name="com.gopro.qa.testcases.LoginPageTest"/>
+      <class name="com.gopro.qa.testcases.TestSignUpPage"/>
+      <class name="com.gopro.qa.testcases.TestContactUs"/>
+      <class name="com.gopro.qa.testcases.TestContactUs"/>
+      <class name="com.gopro.qa.testcases.TestAdminPage"/>
+      
+      </classes>
+  </test> <!-- Test -->   
+</suite> <!-- Suite -->

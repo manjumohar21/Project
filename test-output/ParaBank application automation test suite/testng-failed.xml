@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ParaBank application automation test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ParaBank Test cases(failed)">
+    <classes>
+      <class name="com.gopro.qa.testcases.TestContactUs">
+        <methods>
+          <include name="ContactUsTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.gopro.qa.testcases.TestContactUs -->
+    </classes>
+  </test> <!-- ParaBank Test cases(failed) -->
+</suite> <!-- Failed suite [ParaBank application automation test suite] -->
